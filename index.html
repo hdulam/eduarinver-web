@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Guía de Bitcoin para Principiantes | Eduardo Rivas</title>
+  <meta name="description" content="Aprende Bitcoin sin estafas ni tecnicismos. Guía clara y segura para principiantes, creada por Eduardo Rivas." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <style>
+    :root {
+      --primary: #1d3c6e;
+      --secondary: #3a6ab3;
+      --accent: #ff7f50;
+      --light: #f5f9ff;
+      --dark: #1a1a1a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: var(--dark);
+      background: #fff;
+    }
+
+    h1, h2 {
+      line-height: 1.25;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    /* HERO */
+    .hero {
+      padding: clamp(3rem, 6vw, 6rem) 1.5rem;
+      text-align: center;
+      color: #fff;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+    }
+
+    .hero h1 {
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 0 auto 2rem;
+      font-size: 1.05rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 14px 34px;
+      background: var(--accent);
+      color: var(--primary);
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 999px;
+      transition: transform .2s ease, box-shadow .2s ease;
+      box-shadow: 0 10px 20px rgba(0,0,0,.15);
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 28px rgba(0,0,0,.2);
+    }
+
+    /* MEDIA SECTION */
+    .media-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 3rem;
+      padding: clamp(3rem, 5vw, 5rem) 1.5rem;
+      background: var(--light);
+      align-items: center;
+    }
+
+    .video-wrapper {
+      aspect-ratio: 16 / 9;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,.15);
+    }
+
+    .video-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .media-text h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    /* TESTIMONIAL */
+    .testimonial {
+      padding: clamp(3rem, 5vw, 5rem) 1.5rem;
+      text-align: center;
+    }
+
+    .testimonial blockquote {
+      max-width: 700px;
+      margin: auto;
+      font-style: italic;
+      font-size: 1.1rem;
+      padding: 1.5rem 2rem;
+      border-left: 5px solid var(--accent);
+      background: #fff;
+      box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    }
+
+    .testimonial cite {
+      display: block;
+      margin-top: 1rem;
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    /* AUTHOR */
+    .author {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 3rem;
+      padding: clamp(3rem, 5vw, 5rem) 1.5rem;
+      align-items: center;
+      background: var(--light);
+    }
+
+    .author-image img {
+      max-width: 260px;
+      border-radius: 16px;
+      margin: auto;
+      box-shadow: 0 10px 30px rgba(0,0,0,.15);
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: .9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>🚀 Bienvenido al mundo de Bitcoin sin estafas</h1>
+    <p>
+      🔎 Un salvadoreño revela cómo evitar errores comunes y entender Bitcoin con confianza.<br>
+      💡 Sin seminarios caros. Sin tecnicismos. Desde casa.
+    </p>
+
+    <a class="cta-button" href="https://go.hotmart.com/S95415199L" target="_blank" rel="noopener">
+      Acceder a la guía ahora
+    </a>
+  </section>
+
+  <!-- VIDEO + INFO -->
+  <section class="media-section">
+    <div class="video-wrapper">
+      <iframe 
+        src="https://www.youtube.com/embed/MyDMTseiU8s"
+        title="Introducción a Bitcoin"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="media-text">
+      <h2>Aprende Bitcoin paso a paso</h2>
+      <p>
+        Esta guía está pensada para personas reales que quieren comprender Bitcoin,
+        proteger su dinero y tomar decisiones informadas sin caer en estafas.
+      </p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial">
+    <h2>Opiniones reales</h2>
+    <blockquote>
+      “Este libro es espectacular para los principiantes.”
+      <cite>— Edgardo Mulato</cite>
+    </blockquote>
+  </section>
+
+  <!-- AUTHOR -->
+  <section class="author">
+    <div class="author-text">
+      <h2>Acerca del autor</h2>
+      <p>
+        Eduardo Rivas es educador en criptomonedas y finanzas personales.
+        Su misión es ayudar a las personas a entender Bitcoin de forma clara,
+        responsable y sin falsas promesas.
+      </p>
+    </div>
+
+    <div class="author-image">
+      <img src="eduardoimg.jpg" alt="Eduardo Rivas" loading="lazy">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© 2025 Eduardo Rivas. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
